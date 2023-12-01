@@ -1,0 +1,29 @@
+#Latihan 1
+for angka in range(1, 11):
+    if angka % 2 != 0 :
+        print("Angka pertama ganjil pertama yang di temukan", angka)
+        break
+
+#Latihan 2
+total = 0
+
+while True:
+
+    bilangan = input("Masukan bilangan positif"))
+    if int bilangan < 0:
+        break
+    total += bilangan
+
+print("Jumlah dari bilangan-bilangan tersebut adalah", total)
+
+#Latihan 3
+angka = 0
+for a in range(1, 51):
+    if a % 5 == 0:
+        print(a)
+        angka += 1
+
+        if angka == 10:
+            break
+
+print("kelipatan", angka)
